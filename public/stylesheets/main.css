@@ -1,0 +1,245 @@
+body {
+  margin: 0;
+  background-color: #f6f7fa; }
+
+.container-fluid {
+  padding: 0; }
+
+.menu {
+  background-color: #3d404a;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 155px; }
+  .menu ul {
+    display: inline-block;
+    margin-left: 249px; }
+    .menu ul li {
+      height: 155px;
+      padding: 5px;
+      color: #e8e9ef;
+      font-size: 24px;
+      font-family: Roboto-Regular; }
+      .menu ul li a {
+        color: #e8e9ef;
+        font-size: 24px;
+        font-family: Roboto-Regular;
+        margin-top: 66px;
+        margin-bottom: 61px;
+        text-decoration: none; }
+        .menu ul li a .hover {
+          text-decoration: none; }
+        .menu ul li a .active {
+          color: #ffffff; }
+
+.desnimeni {
+  position: relative;
+  top: 59px; }
+  .desnimeni .gumbAll {
+    padding-right: 50px; }
+    .desnimeni .gumbAll .dropdownAll {
+      background-color: #3387e7;
+      width: 154px;
+      height: 65px;
+      border-radius: 40px;
+      margin-top: 66px;
+      margin-bottom: 61px;
+      padding-left: 29px;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: left; }
+    .desnimeni .gumbAll .trikotnik {
+      width: 0;
+      height: 0;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 10px solid #ffffff;
+      position: absolute;
+      top: 32px;
+      right: 70px; }
+  .desnimeni .btn {
+    background-color: transparent;
+    font-size: 24px;
+    color: #ffffff; }
+
+.submeni {
+  height: 110px;
+  width: 100%;
+  background-color: #ffffff; }
+  .submeni ul {
+    display: inline-block;
+    margin-left: 59px; }
+    .submeni ul li {
+      width: 109px; }
+      .submeni ul li a {
+        padding-top: 42px;
+        color: #556179;
+        font-family: Roboto-Medium;
+        font-size: 24px;
+        letter-spacing: 1px;
+        height: 110px; }
+      .submeni ul li .active {
+        border-bottom: 4px solid #f93547;
+        color: #f93547; }
+
+.submeniGoups {
+  height: 145px;
+  width: 100%;
+  background-color: #e8e9ef; }
+  .submeniGoups ul {
+    display: inline-block;
+    margin-right: 36px; }
+    .submeniGoups ul li {
+      margin-top: 60px;
+      text-align: center;
+      padding-left: 36px; }
+      .submeniGoups ul li a {
+        padding-top: 24px;
+        width: 219px;
+        height: 85px;
+        color: #929090;
+        font-family: Roboto-Regular;
+        font-size: 24px; }
+      .submeniGoups ul li .active {
+        border-top-left-radius: 39px;
+        border-top-right-radius: 39px;
+        background-color: #f6f7fa; }
+
+.modal-content {
+  height: 800px;
+  width: 1286px;
+  background-color: #f6f7fa;
+  border-radius: 10px;
+  box-shadow: 10px 0px 20px #333641; }
+  .modal-content .modal-header {
+    border-bottom: 0px solid;
+    height: 200px;
+    margin-bottom: 60px; }
+    .modal-content .modal-header .modal-title {
+      font-family: SourceSansPro-Light;
+      font-size: 80px;
+      color: #696969;
+      margin-top: 114px;
+      text-align: center; }
+  .modal-content .modal-body {
+    height: 300px;
+    text-align: center; }
+    .modal-content .modal-body .imeSkupine {
+      height: 153px;
+      width: 1051px;
+      background-color: #eff1f6;
+      font-size: 40px;
+      color: #b1b1b1;
+      margin: auto 0;
+      border: 2px solid #ababaf;
+      padding-left: 72px; }
+    .modal-content .modal-body .obvestilo {
+      font-family: SourceSansPro-Regular;
+      font-size: 30px;
+      color: #d8d8d8;
+      position: relative;
+      top: 27px; }
+  .modal-content .modal-footer {
+    border-top: 0px solid;
+    text-align: center; }
+    .modal-content .modal-footer .addteam {
+      margin: 62px;
+      width: 277px;
+      height: 94px;
+      border-radius: 100px;
+      border: 3px solid #3387e7;
+      background: transparent;
+      color: #3387e7;
+      font-size: 35px;
+      letter-spacing: 1px;
+      font-family: SourceSansPro-Regular; }
+
+.scroll {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap; }
+
+.faza {
+  display: inline-block;
+  width: 638px;
+  background-color: #f6f7fa;
+  font-size: 24px;
+  color: #000000;
+  margin-left: 60px;
+  vertical-align: top; }
+  .faza .naslovna {
+    font-size: 40px;
+    padding-top: 76px;
+    padding-bottom: 40px; }
+    .faza .naslovna .stevilo {
+      padding-right: 39px;
+      position: relative;
+      right: -39px;
+      background: #f93547;
+      color: white;
+      height: 22px;
+      width: 33px;
+      border-radius: 39px;
+      margin: auto;
+      font-size: 15px; }
+    .faza .naslovna .zeleno {
+      color: #00c461;
+      font-size: 28px;
+      margin-top: 8px; }
+  .faza .ploscica {
+    width: 638px;
+    height: 153px;
+    background-color: white;
+    box-shadow: 2px 0px 6px rgba(197, 197, 197, 0.5);
+    margin-bottom: 20px;
+    cursor: move; }
+    .faza .ploscica .slikica {
+      width: 150px;
+      height: 100%;
+      display: inline-table; }
+      .faza .ploscica .slikica .slika {
+        margin-left: 39px;
+        margin-top: 41px;
+        height: 71px;
+        width: 71px;
+        border-radius: 50%;
+        background-color: #d8d8d8;
+        border: 1px solid #979797; }
+    .faza .ploscica .opis {
+      width: 400px;
+      display: inline-block;
+      height: 153px; }
+      .faza .ploscica .opis .naslov {
+        font-size: 38px;
+        color: #403d48;
+        position: relative;
+        top: 20px; }
+      .faza .ploscica .opis .datum {
+        font-size: 20px;
+        color: #8a8a8a;
+        display: inline-block;
+        position: relative; }
+      .faza .ploscica .opis .oseba {
+        font-size: 20px;
+        color: #2395ff;
+        display: inline-block;
+        position: relative; }
+    .faza .ploscica .stanje {
+      width: 100px;
+      display: inline-block; }
+      .faza .ploscica .stanje .kroglica {
+        height: 18px;
+        width: 18px;
+        background-color: #00c461;
+        border-radius: 50%;
+        position: relative;
+        top: -15px; }
+  .faza .dropHere {
+    width: 638px;
+    height: 153px;
+    background-color: #f0f1f4;
+    border: 2px dashed #ababaf;
+    text-align: center;
+    font-size: 34px;
+    color: #d7d7d7; }

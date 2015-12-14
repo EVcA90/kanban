@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>{{title}}</title>
+   <link rel='stylesheet' href='/node_modules/bootstrap/dist/css/bootstrap.min.css' />
+    <link rel='stylesheet' href='/stylesheets/main.css' />
+     
+   </head>
+  <body>
+<div class="container-fluid">
+
+    <div class="menu">
+      <ul class="nav nav-tabs">
+        <li ><a href="#" class="active">Content</a></li>
+        <li><a href="#">Outputs</a></li>
+        <li><a href="#">People</a></li> 
+        <li><a href="#">Analytics</a></li> 
+        <li><a href="#">Learn</a></li> 
+        <li><a href="#">Support</a></li> 
+      </ul>
+
+      <ul class="desnimeni nav navbar-nav navbar-right ">
+        <li class="gumbAll">
+          <div class="dropdownAll">
+           All <span class="trikotnik"></span>
+           
+          </div>
+        </li>
+        <li>
+          
+              
+              <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><img src="/images/profile-img.png" class="img-circle">
+                  Hi, <b>Luke!</b>
+                </button>
+              
+
+        </li>
+    </div>
+
+
+    <div class="submeni">
+
+      <ul class="nav nav-pills">
+        <li><a href="#">Products</a></li> 
+              <li ><a href="#" class="active">Manage</a></li>
+              
+              <li><a href="#">Custom</a></li> 
+              
+            </ul>
+    </div>
+
+<div class="submeniGoups">
+
+      <ul class="nav nav-pills">
+        
+              <li ><a href="#" class="active" >Team SW</a></li>
+              <li><a href="#">Team Unicorn</a></li> 
+              <li><a href="#">Team Leprechaun</a></li> 
+                <li><a data-toggle="modal" data-target="#myModal">+</a></li>
+              
+            </ul>
+
+
+            <div id="myModal" class="modal fade" role="dialog">
+              <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><img src="/images/close-modal-icon.png"></button>
+                    <h4 class="modal-title">Add new team</h4>
+                  </div>
+                  <div class="modal-body">
+                    <input class="imeSkupine" type="text" placeholder="Name it wisely…"></input>
+                    <br>
+                    <span class="obvestilo">We know it is tough - <a href="#">generate</a></span>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="addteam btn btn-default" data-dismiss="modal">Add team</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+</div>
+
+
+<div class="scroll row ">
+
+  <div class="faza">
+    <div class="naslovna">
+        Content <span class="stevilo">7</span>
+        <div class="zeleno">Lorem</div>
+    </div>
+
+    <div class="ploscica" id="plos1" draggable="true" ondragstart="return dragStart(event)">
+       <div class="slikica">
+        <div class="slika"></div>
+       </div>
+       <div class="opis">
+          <div class="naslov">Hero 6</div> <br>
+          <div class="datum">13 Dec 2015,</div>
+          <div class="oseba">Yoda</div>
+       </div>
+      <div class="stanje">
+        <div class="kroglica"></div>
+      </div>
+      
+    </div>
+     <div class="ploscica" id="plos2" draggable="true" ondragstart="return dragStart(event)">
+       <div class="slikica">
+        <div class="slika"></div>
+       </div>
+       <div class="opis">
+          <div class="naslov">Hero 6</div> <br>
+          <div class="datum">13 Dec 2015,</div>
+          <div class="oseba">Yoda</div>
+       </div>
+      <div class="stanje">
+        <div class="kroglica"></div>
+      </div>
+      
+    </div>
+    <div id="drop1" class="dropHere" ondragenter="return dragEnter(event)" 
+            ondrop="return dragDrop(event)" 
+            ondragover="return dragOver(event)">
+      +
+    </div>
+  </div>
+
+  <div class="faza">
+     <div class="naslovna">
+      Tagging
+       <div class="zeleno">Lorem</div>
+      </div>
+  <div class="ploscica" id="plos3" draggable="true" ondragstart="return dragStart(event)">
+       <div class="slikica">
+        <div class="slika"></div>
+       </div>
+       <div class="opis">
+          <div class="naslov">Hero 6</div> <br>
+          <div class="datum">13 Dec 2015,</div>
+          <div class="oseba">Yoda</div>
+       </div>
+      <div class="stanje">
+        <div class="kroglica"></div>
+      </div>
+      
+    </div>
+     <div class="ploscica" id="plos4" draggable="true" ondragstart="return dragStart(event)">
+       <div class="slikica">
+        <div class="slika"></div>
+       </div>
+       <div class="opis">
+          <div class="naslov">Hero 6</div> <br>
+          <div class="datum">13 Dec 2015,</div>
+          <div class="oseba">Yoda</div>
+       </div>
+      <div class="stanje">
+        <div class="kroglica"></div>
+      </div>
+      
+    </div>
+    <div id="drop2" class="dropHere" ondragenter="return dragEnter(event)" 
+            ondrop="return dragDrop(event)" 
+            ondragover="return dragOver(event)">
+      +
+    </div>
+  </div>
+ <div class="faza">
+     <div class="naslovna">
+      Tagging
+       <div class="zeleno">Lorem</div>
+      </div>
+       <div class="ploscica" draggable="true" id="plos5" ondragstart="return dragStart(event)">
+       <div class="slikica">
+        <div class="slika"></div>
+       </div>
+       <div class="opis">
+          <div class="naslov">Hero 6</div> <br>
+          <div class="datum">13 Dec 2015,</div>
+          <div class="oseba">Yoda</div>
+       </div>
+      <div class="stanje">
+        <div class="kroglica"></div>
+      </div>
+      
+    </div>
+
+    <div id="drop4" class="dropHere" ondragenter="return dragEnter(event)" 
+            ondrop="return dragDrop(event)" 
+            ondragover="return dragOver(event)">
+      +
+    </div>
+  </div>
+ 
+
+ <div class="faza">
+     <div class="naslovna">
+      Tagging
+       <div class="zeleno">Lorem</div>
+      </div>
+       <div class="ploscica" draggable="true" ondragstart="return dragStart(event)">
+       <div class="slikica">
+        <div class="slika"></div>
+       </div>
+       <div class="opis">
+          <div class="naslov">Hero 6</div> <br>
+          <div class="datum">13 Dec 2015,</div>
+          <div class="oseba">Yoda</div>
+       </div>
+      <div class="stanje">
+        <div class="kroglica"></div>
+      </div>
+      
+    </div>
+    <div id="drop3" class="dropHere" ondragenter="return dragEnter(event)" 
+            ondrop="return dragDrop(event)" 
+            ondragover="return dragOver(event)">
+      +
+    </div>
+  </div>
+
+</div>
+
+ 
+
+
+    <script type="text/javascript" src="/node_modules/jquery/dist/jquery.js"></script>
+  <script type="text/javascript" src="/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  
+<script type="text/javascript">
+         function dragStart(ev) {
+
+          
+            ev.dataTransfer.effectAllowed='move';
+            ev.dataTransfer.setData("Text", ev.target.getAttribute('id'));
+            ev.dataTransfer.setDragImage(ev.target,0,0);
+            ev.target.style.opacity = "1";
+            return true;
+         }
+         
+         function dragEnter(ev) {
+            event.preventDefault();
+            return true;
+         }
+         
+         function dragOver(ev) {
+            return false;
+         }
+         
+         function dragDrop(ev) {
+            var src = ev.dataTransfer.getData("Text");
+            ev.target.appendChild(document.getElementById(src));
+            ev.stopPropagation();
+            return false;
+         }
+      </script>
+
+
+  </body>
+
+</html>
